@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #86B817;
+    --primary: #8756d7;
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
@@ -47,7 +47,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    color: #8756d7;
 }
 
 .btn-square {
@@ -101,7 +101,7 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 160px;
+    max-height: 80px;
     transition: .5s;
 }
 
@@ -172,7 +172,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/bg-hero.jpg);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/office-cabin.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
