@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #86B817;
+    --primary: #8756d7;
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
@@ -47,7 +47,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    color: #8756d7;
 }
 
 .btn-square {
@@ -101,7 +101,7 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 160px;
+    max-height: 80px;
     transition: .5s;
 }
 
@@ -172,7 +172,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/bg-hero.jpg);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/office-cabin.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,6 +201,41 @@
     z-index: -1;
 }
 
+/* Dropdown container styling */
+.dropdown-menu {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    padding: 25px; /* Increased padding inside the dropdown */
+    border-radius: 8px; /* Slightly more rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for more depth */
+    width: 1000px; /* Increased width for a broader container */
+    transform: translateX(-800px); /* Move container to the left */
+}
+
+/* Styling for dropdown items */
+.dropdown-item {
+    color: #333; /* Text color */
+    padding: 12px 20px; /* Increased padding for clickable area */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Ensure items are block-level */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+    background-color: #007bff; /* Highlight background */
+    color: #fff; /* Highlight text color */
+}
+
+/* Row and column styling inside dropdown */
+.dropdown-menu .row {
+    margin: 0; /* Remove default row margin */
+}
+
+.dropdown-menu .col-lg-4,
+.dropdown-menu .col-md-6 {
+    padding: 10px; /* Increased spacing between columns */
+}
 .section-title::after {
     position: absolute;
     content: "";
