@@ -208,8 +208,8 @@
     padding: 25px; /* Increased padding inside the dropdown */
     border-radius: 8px; /* Slightly more rounded corners */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for more depth */
-    width: 1000px; /* Increased width for a broader container */
-    transform: translateX(-800px); /* Move container to the left */
+    width: 1200px; /* Increased width for a broader container */
+    transform: translateX(-1000px); /* Move container to the left */
 }
 
 /* Styling for dropdown items */
