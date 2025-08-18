@@ -70,76 +70,89 @@
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <!-- <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Tourist</h1> -->
-                <img src="img/logo.png" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What we do</a>
-                        <!-- add items to the dropdown that will show up in 3 columns on a large screen and 1 column in small screens-->
-                                
-                     <div class="dropdown-menu m-0">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h6 class="dropdown-header text-primary fw-bold" style="font-size: 1.5rem;">Industries</h6>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <span href="business_lines.html" class="dropdown-item">Aerospace, Aviation & Defense</span>
-                                    <span href="business_lines.html" class="dropdown-item">Automotive</span>
-                                    <span href="business_lines.html" class="dropdown-item">Finance and Accounting</span>
-                                    <span href="business_lines.html" class="dropdown-item">Health, Wellness and Fitness</span>
-                                    <span href="business_lines.html" class="dropdown-item">Industrial Automation</span>
-                                    <span href="business_lines.html" class="dropdown-item">Management and Business Consulting</span>
-                                    <span href="business_lines.html" class="dropdown-item">Non-Profit and Government</span>
-                                    <span href="business_lines.html" class="dropdown-item">Paper and Forest Products</span>
-                                    <span href="business_lines.html" class="dropdown-item">Real Estate</span>
-                                    <span href="business_lines.html" class="dropdown-item">Sales and Marketing</span>
-                                    <span href="business_lines.html" class="dropdown-item">Sporting Goods</span>
-                                    <span href="business_lines.html" class="dropdown-item">Television, Entertainment and Media</span>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <span href="business_lines.html" class="dropdown-item">Apparel, Fashion and Cosmetics</span>
-                                    <span href="business_lines.html" class="dropdown-item">Energy and Utility</span>
-                                    <span href="business_lines.html" class="dropdown-item">Food Industry</span>
-                                    <span href="business_lines.html" class="dropdown-item">Hospitality</span>
-                                    <span href="business_lines.html" class="dropdown-item">Information Technology</span>
-                                    <span href="business_lines.html" class="dropdown-item">Manufacturing</span>
-                                    <span href="business_lines.html" class="dropdown-item">Oil and Gas</span>
-                                    <span href="business_lines.html" class="dropdown-item">Plastics</span>
-                                    <span href="business_lines.html" class="dropdown-item">Research & Development</span>
-                                    <span href="business_lines.html" class="dropdown-item">Scientific</span>
-                                    <span href="business_lines.html" class="dropdown-item">Supply Chain and Logistics</span>
-                                    <span href="business_lines.html" class="dropdown-item">Transport</span>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <span href="business_lines.html" class="dropdown-item">Arts and Craft</span>
-                                    <span href="business_lines.html" class="dropdown-item">Engineering</span>
-                                    <span href="business_lines.html" class="dropdown-item">Healthcare and Medical</span>
-                                    <span href="business_lines.html" class="dropdown-item">Human Resources</span>
-                                    <span href="business_lines.html" class="dropdown-item">Legal</span>
-                                    <span href="business_lines.html" class="dropdown-item">Mining & Mineral</span>
-                                    <span href="business_lines.html" class="dropdown-item">Packaging</span>
-                                    <span href="business_lines.html" class="dropdown-item">Printing</span>
-                                    <span href="business_lines.html" class="dropdown-item">Retail and Consumer Goods</span>
-                                    <span href="business_lines.html" class="dropdown-item">Semiconductors</span>
-                                    <span href="business_lines.html" class="dropdown-item">Telecommunications</span>
-                                    <span href="business_lines.html" class="dropdown-item">Water and Wastewater</span>
-                                </div>
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+            <img src="img/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+
+                <!-- Mega Menu Dropdown -->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What we do</a>
+                    <div class="dropdown-menu m-1 p-3" style="min-width: 100%;">
+                        <div class="row">
+                            <div class="col-12">
+                            <h6 class="dropdown-header text-primary fw-bold" style="font-size: 2.0rem;">Industries</h6>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <ul class="list-unstyled">
+                                    <li class="py-3">Aerospace, Aviation & Defense</li>
+<li class="py-3">Apparel, Fashion and Cosmetics</li>
+<li class="py-3">Arts and Craft</li>
+<li class="py-3">Automotive</li>
+<li class="py-3">Health, Wellness and Fitness</li>
+<li class="py-3">Hospitality</li>
+<li class="py-3">Industrial Automation</li>
+<li class="py-3">Legal</li>
+<li class="py-3">Mining & Mineral</li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-md-6 col-12">
+    <ul class="list-unstyled">
+        <li class="py-3">Energy and Utility</li>
+        <li class="py-3">Engineering</li>
+        <li class="py-3">Finance and Accounting</li>
+        <li class="py-3">Food Industry</li>
+        <li class="py-3">Healthcare and Medical</li>
+        <li class="py-3">Human Resources</li>
+        <li class="py-3">Information Technology</li>
+        <li class="py-3">Management and Business Consulting</li>
+        <li class="py-3">Non-Profit and Government</li>
+    </ul>
+</div>
+
+<div class="col-lg-3 col-md-6 col-12">
+    <ul class="list-unstyled">
+        <li class="py-3">Paper and Forest Products</li>
+        <li class="py-3">Plastics</li>
+        <li class="py-3">Printing</li>
+        <li class="py-3">Real Estate</li>
+        <li class="py-3">Research & Development</li>
+        <li class="py-3">Retail and Consumer Goods</li>
+        <li class="py-3">Sales and Marketing</li>
+        <li class="py-3">Scientific</li>
+        <li class="py-3">Semiconductors</li>
+    </ul>
+</div>
+
+<div class="col-lg-3 col-md-6 col-12">
+    <ul class="list-unstyled">
+        <li class="py-3">Sporting Goods</li>
+        <li class="py-3">Supply Chain and Logistics</li>
+        <li class="py-3">Telecommunications</li>
+        <li class="py-3">Television, Entertainment and Media</li>
+        <li class="py-3">Transport</li>
+        <li class="py-3">Water and Wastewater</li>
+        <li class="py-3">Oil and Gas</li>
+    </ul>
+</div>
+                                </ul>
                             </div>
                         </div>
-
-                        </div> 
                     </div>
+                </div>
+                <!-- End Mega Menu Dropdown -->
+
+                        
                     <a href="contact.html" class="nav-item nav-link"> Contact</a>
                 </div>
             </div>
